@@ -5,8 +5,6 @@
     list-style-type: none;
 }
 .section{
-    border-style: dashed;
-    border-color: #21d61b;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -128,7 +126,7 @@ h4{
     position: absolute;
     width: 200px;
     height: 16px;
-    right: 100px;
+    right: 150px;
     top: 32px;
     
     font-family: 'Roboto';
@@ -284,7 +282,7 @@ table{
 }
 
 .list_d{
-    display: inline-block;
+    display: inline;
     left: 0%;
 }
 
@@ -334,14 +332,17 @@ background: #F5F4FA;
 /* PORTAFOLIO SECCION */
 
 .filters{
+    left: 0%;
     position: absolute;
-    width: 611px;
+    display:inline-block;
+    justify-content:center;
+    width: 100%;
     height: 54px;
-    left: 550px;
-    top: 150px;
+    margin-top: 90px;
     border: 0px;   
 }
 .filters button{
+    left: 0%;
     border: 0px;
     width: 100px;
     height: 40px;
@@ -362,11 +363,12 @@ background: #F5F4FA;
 
 .section_project{
     position: absolute;
-    padding-top: 200px;
-    align-items: center;
-    left: 100px;
-    
-    
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: auto;
+    left: 0;
+    width: 100%;
 }
 h3{
     font-family: 'Roboto';
@@ -375,66 +377,39 @@ h3{
     font-size: 18px;
     line-height: 36px;
 }
+.list_project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+}
+.list_project div{
+    display:block;
+    justify-content:center;
+    left: 0%;
+}
 .section_project li{
     border-radius: 20px;
 }
-.section_project li:hover{
+.section_project .proj:hover{
     box-shadow: 0px 7px 5px -1px rgb(87, 87, 87, 0.2);
     transition: 500ms;
 }
-.proj_1{
-    position: absolute;
-    padding: 20px;
-    
+.proj{
+    display: inline-block;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 100%;
 }
-
-.proj_2{
-    position: absolute;
-    left: 520px;
-    padding: 20px;
-
-}
-.proj_3{
-    position: absolute;
-    padding: 20px;
-    left: 1000px;
-}
-.proj_4{
-    position: absolute;
-    padding: 20px;
-    top: 750px;
-}
-.proj_5{
-    position: absolute;
-    padding: 20px;
-    left: 520px;
-    top:750px;
-
-}
-.proj_6{
-    position: absolute;
-    padding: 20px;
-    left: 1000px;
-    top: 750px;
-
-}
-.proj_7{
-    position: absolute;
-    padding: 20px;
-    top: 1300px;
-}
-.proj_8{
-    position: absolute;
-    padding: 20px;
-    left: 520px;
-    top: 1300px;
-
-}
-.proj_9{
-    position: absolute;
-    padding: 20px;
-    left: 1000px;
-    top: 1300px;
+.proj img{
+    width:330px;
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #757575;
 
 }
 
@@ -461,7 +436,7 @@ h3{
 .footer_c{
     background: #2F303A;
     position:absolute;
-    top:1900px;
+    top:1800px;
     left: 0%;
     height:230px;
     width:100%;
