@@ -45,7 +45,7 @@ h4{
 }
 .text_1{
     position: absolute;
-    left: 180px;
+    left: 200px;
     top: 24px;
     
     font-family: 'Raleway';
@@ -63,7 +63,7 @@ h4{
     position: absolute;
     width: 49px;
     height: 16px;
-    left: 420px;
+    left: 470px;
     top: 32px;
     
     font-family: 'Roboto';
@@ -78,7 +78,7 @@ h4{
     position: absolute;
     width: 65px;
     height: 16px;
-    left: 540px;
+    left: 580px;
     top: 32px;
     
     font-family: 'Roboto';
@@ -94,7 +94,7 @@ h4{
     position: absolute;
     width: 0px;
     height: 16px;
-    left: 670px;
+    left: 700px;
     top: 32px;
     
     font-family: 'Roboto';
